@@ -76,3 +76,10 @@ C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\De
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.csproj.CoreCompileInputs.cache
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.dll
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.pdb
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\EntityFramework.dll
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\EntityFramework.SqlServer.dll
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\EntityFramework.xml
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\EntityFramework.SqlServer.xml
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.Migrations.InitialCreate.resources
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.csproj.GenerateResource.cache
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.Migrations.Create_Table_2.resources
