@@ -1,0 +1,46 @@
+﻿@model IEnumerable<LHDBaiTapLon214.Models.Diem>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DiemB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiemC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaHocPhan)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiemB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiemC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaHocPhan)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DiemA }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DiemA }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DiemA })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,43 @@
+﻿@model LHDBaiTapLon214.Models.Diem
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Diem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DiemB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiemB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiemC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiemC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaHocPhan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaHocPhan)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DiemA }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
