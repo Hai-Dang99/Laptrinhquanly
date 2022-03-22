@@ -139,10 +139,15 @@
     <Compile Include="Migrations\202203211448550_InitialCreate.Designer.cs">
       <DependentUpon>202203211448550_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203221245388_Update1.cs" />
+    <Compile Include="Migrations\202203221245388_Update1.Designer.cs">
+      <DependentUpon>202203221245388_Update1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Diem.cs" />
     <Compile Include="Models\QuanLySinhVienDbContex.cs" />
+    <Compile Include="Models\StringProcess.cs" />
     <Compile Include="Models\ThongTin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -214,6 +219,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202203211448550_InitialCreate.resx">
       <DependentUpon>202203211448550_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203221245388_Update1.resx">
+      <DependentUpon>202203221245388_Update1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

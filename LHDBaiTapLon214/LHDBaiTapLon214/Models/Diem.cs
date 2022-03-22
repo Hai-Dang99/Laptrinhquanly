@@ -23,5 +23,8 @@ namespace LHDBaiTapLon214.Models
         [Display(Name = "Mã Học Phần")]
         [Required(ErrorMessage = "Mã Học Phần không được bỏ trống")]
         public string MaHocPhan { get; set; }
+        [Display(Name = "Mã Sinh Viên")]
+        [Required(ErrorMessage = "Mã Sinh Viên không được bỏ trống")]
+        public string MaSinhVien { get; set; }
     }
 }

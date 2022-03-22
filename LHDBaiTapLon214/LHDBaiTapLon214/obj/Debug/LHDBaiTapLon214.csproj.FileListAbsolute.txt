@@ -82,3 +82,4 @@ C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiTapLon214\LHDBaiTapLon214\obj\Debug\
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiTapLon214\LHDBaiTapLon214\obj\Debug\LHDBaiTapLon214.pdb
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiTapLon214\LHDBaiTapLon214\obj\Debug\LHDBaiTapLon214.Migrations.InitialCreate.resources
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiTapLon214\LHDBaiTapLon214\obj\Debug\LHDBaiTapLon214.csproj.GenerateResource.cache
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiTapLon214\LHDBaiTapLon214\obj\Debug\LHDBaiTapLon214.Migrations.Update1.resources
