@@ -1,19 +1,16 @@
-﻿
+﻿@model LHDBaiThucHanh214.Models.Student5
 @{
     ViewBag.Title = "Demo";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Demo</h2>
-<h3>@ViewBag.Thongtin</h3>
+<h2>@ViewBag.Thongtin</h2>
 @using (Html.BeginForm())
 {
-    <label>Masinhvien</label>
-    <input type="number" name="Masinhvien"  />
-    <input type="submit" value=" Nhập" />
-    
-    <label>HoTenSinhVien</label>
-    <input type="text" name="HoTenSinhVien"  />
+    <label>Ma sinh vien</label>
+    @Html.EditorFor(model => model.Student5ID, new { htmlAttributes = new { @class = "form-control" } })
+    <label>Ho Ten Sinh Vien</label>
+    @Html.EditorFor(model => model.Student5Name, new { htmlAttributes = new { @class = "form-control" } })
     <input type="submit" value="Nhập" />
 }
 

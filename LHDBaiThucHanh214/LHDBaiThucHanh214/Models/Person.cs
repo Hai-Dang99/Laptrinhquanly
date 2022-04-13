@@ -11,7 +11,9 @@ namespace LHDBaiThucHanh214.Models
     public class Person
     {
         [Key]
+        [Display(Name = "Mã")]
         public string PersonID { get; set; }
+        [Display(Name = "Tên")]
 
         public string PersonName { get; set; }
     }

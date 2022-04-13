@@ -3,25 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using LHDBaiThucHanh214.Models;
 
 namespace LHDBaiThucHanh214.Controllers
 {
     public class DemoController : Controller
     {
         // GET: Demo
-        public ActionResult Index()
-        {
-            return View();
-        }
         public ActionResult Demo()
         {
-            ViewBag.Message = "";
             return View();
         }
         [HttpPost]
-        public ActionResult Demo(string Masinhvien, string HoTenSinhVien)
+        public ActionResult Demo(Student5 std)
         {
-            ViewBag.Thongtin = Masinhvien + " " + HoTenSinhVien;
+            ViewBag.Thongtin = "Hello" + std.Student5ID + "-" + std.Student5Name;
             return View();
         }
     }

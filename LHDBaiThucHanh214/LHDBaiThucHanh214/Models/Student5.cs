@@ -11,7 +11,9 @@ namespace LHDBaiThucHanh214.Models
     public class Student5
     {
         [Key]
+        [Display(Name = "Mã Sinh Viên")]
         public string Student5ID { get; set; }
+        [Display(Name = "Tên Sinh Viên")]
         public string Student5Name { get; set; }
     }
 }

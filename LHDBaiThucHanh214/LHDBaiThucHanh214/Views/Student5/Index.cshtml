@@ -1,0 +1,34 @@
+﻿@model IEnumerable<LHDBaiThucHanh214.Models.Student5>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Sinh Viên</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "Thêm")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Student5Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Student5Name)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Sửa", new { id=item.Student5ID }) |
+            @Html.ActionLink("Chi Tiết", "Chi Tiết", new { id=item.Student5ID }) |
+            @Html.ActionLink("Xóa", "Xóa", new { id=item.Student5ID })
+        </td>
+    </tr>
+}
+
+</table>

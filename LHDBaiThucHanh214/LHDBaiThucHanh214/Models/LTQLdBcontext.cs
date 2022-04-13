@@ -17,6 +17,7 @@ namespace LHDBaiThucHanh214.Models
         public virtual DbSet<Person> Persons { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<HaiDang> HaiDangs { get; set; }
+        public object Employee { get; internal set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

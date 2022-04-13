@@ -8,7 +8,7 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Thêm Mới", "Thêm")
 </p>
 <table class="table">
     <tr>
@@ -30,9 +30,9 @@
             @Html.DisplayFor(modelItem => item.NgayThangNam)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MaSinhVien }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MaSinhVien }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MaSinhVien })
+            @Html.ActionLink("Sửa", "Sửa", new { id=item.MaSinhVien }) |
+            @Html.ActionLink("Chi Tiết", "Chi Tiết", new { id=item.MaSinhVien }) |
+            @Html.ActionLink("Xóa", "Xóa", new { id=item.MaSinhVien })
         </td>
     </tr>
 }

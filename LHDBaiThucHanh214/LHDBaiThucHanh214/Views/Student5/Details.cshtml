@@ -1,0 +1,27 @@
+﻿@model LHDBaiThucHanh214.Models.Student5
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi Tiết</h2>
+
+<div>
+    <h4>Student5</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Student5Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student5Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Student5ID }) |
+    @Html.ActionLink("Trở Lại", "Index")
+</p>

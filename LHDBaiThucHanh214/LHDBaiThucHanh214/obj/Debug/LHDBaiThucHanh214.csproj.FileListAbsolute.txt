@@ -72,7 +72,6 @@ C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\Sy
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\Newtonsoft.Json.xml
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\Antlr3.Runtime.pdb
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.csproj.AssemblyReference.cache
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.csproj.CoreCompileInputs.cache
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.dll
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.pdb
@@ -83,3 +82,7 @@ C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\bin\En
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.Migrations.InitialCreate.resources
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.csproj.GenerateResource.cache
 C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.Migrations.Create_Table_2.resources
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.csproj.AssemblyReference.cache
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.Migrations.HD.resources
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.Migrations.HD1.resources
+C:\Users\H-SKY\Desktop\Laptrinhquanly\LHDBaiThucHanh214\LHDBaiThucHanh214\obj\Debug\LHDBaiThucHanh214.csproj.CopyComplete
