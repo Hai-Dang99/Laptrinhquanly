@@ -13,7 +13,7 @@ namespace LHDBaiTapLon214.Controllers
     public class DiemsController : Controller
     {
         private QuanLySinhVienDbContex db = new QuanLySinhVienDbContex();
-
+        [Authorize]
         // GET: Diems
         public ActionResult Index()
         {

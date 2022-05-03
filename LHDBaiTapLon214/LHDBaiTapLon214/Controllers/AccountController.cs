@@ -8,7 +8,7 @@ using System.Web.Security;
 
 namespace LHDBaiTapLon214.Controllers
 {
-    public class AccountsController : Controller
+    public class AccountController : Controller
     {
         public ViewResult Login(string returnUrl)
         {

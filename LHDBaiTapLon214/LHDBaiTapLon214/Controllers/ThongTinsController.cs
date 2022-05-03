@@ -13,7 +13,7 @@ namespace LHDBaiTapLon214.Controllers
     public class ThongTinsController : Controller
     {
         private QuanLySinhVienDbContex db = new QuanLySinhVienDbContex();
-
+        [Authorize]
         // GET: ThongTins
         public ActionResult Index()
         {
@@ -34,7 +34,7 @@ namespace LHDBaiTapLon214.Controllers
             }
             return View(thongTin);
         }
-
+        
         // GET: ThongTins/Create
         public ActionResult Create()
         {

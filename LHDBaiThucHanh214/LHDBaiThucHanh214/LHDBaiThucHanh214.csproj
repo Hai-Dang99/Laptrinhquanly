@@ -156,6 +156,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\ExcelToDataTable.cs" />
     <Compile Include="Models\HaiDang.cs" />
     <Compile Include="Models\keyAttribute.cs" />
     <Compile Include="Models\LTQLdBcontext.cs" />
